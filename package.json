@@ -1,0 +1,27 @@
+{
+  "name": "embed",
+  "bin": {
+    "embed": "./index.js"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@directus/format-title": "^2.3.1",
+    "ap-style-title-case": "^1.1.0",
+    "cac": "^6.4.2",
+    "date-fns": "^1.30.1",
+    "detect-port": "^1.3.0",
+    "fs-extra": "^7.0.1",
+    "pkg": "^4.3.7",
+    "shelljs": "^0.8.3",
+    "simple-git": "^1.126.0",
+    "slugify": "^1.3.4"
+  }
+}
